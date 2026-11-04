@@ -2,7 +2,7 @@ extends Node2D
 
 var score := 0
 
-@onready var score_label: Label = %ScoreLabel
+@onready var score_label: Label = $HUD/ScoreLabel
 
 
 func _ready() -> void:
