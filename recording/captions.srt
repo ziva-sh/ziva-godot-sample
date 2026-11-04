@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:03,000
+Godot 4.7 editor with the Ziva panel on the left. A small sample game with one deliberate bug. Unedited, real time.
+
+2
+00:00:03,000 --> 00:00:11,000
+Prompt sent: add two more stars, make them spin, then play the game and check that the score goes up.
+
+3
+00:00:11,000 --> 00:00:18,500
+Ziva reads the scene tree and the project's scripts.
+
+4
+00:00:18,500 --> 00:00:26,500
+Ziva plans the change. The model is thinking; this pause is real time.
+
+5
+00:00:26,500 --> 00:00:34,500
+Ziva edits star.gd (spin) and main.tscn (two new stars). The 2D view now shows five stars.
+
+6
+00:00:34,500 --> 00:00:39,500
+Ziva runs the game and sends it the Right input action (ui_right). The player touches a star, but the score stays at 0.
+
+7
+00:00:39,500 --> 00:00:47,000
+The Debugger shows the runtime error: Node not found: "%ScoreLabel", then a null-instance error when the star is collected.
+
+8
+00:00:47,000 --> 00:00:54,000
+The first four Debugger lines are audio and display warnings from the virtual display this was recorded on.
+
+9
+00:00:54,000 --> 00:01:03,500
+Ziva reads that error from the run and explains it: the label's unique name lives inside hud.tscn, not main.tscn.
+
+10
+00:01:03,500 --> 00:01:08,000
+Ziva fixes the node path in main.gd to $HUD/ScoreLabel.
+
+11
+00:01:08,000 --> 00:01:13,000
+Ziva runs the game again, holding ui_right for 0.6 s. The score now reads 1.
+
+12
+00:01:13,000 --> 00:01:25,000
+Ziva reports what it changed and what it saw in the run screenshots.
