@@ -6,7 +6,7 @@ The project on `main` has one deliberate bug, the kind you get after moving a no
 
 ## The recording
 
-[`recording/ziva-star-catcher-run.mp4`](recording/ziva-star-catcher-run.mp4) (85 s, silent) is one unedited, real-time screen recording of the Godot editor with the Ziva panel on the left. Captions under the frame say what is happening; [`recording/captions.srt`](recording/captions.srt) has the same text. [`recording/ziva-star-catcher-run-raw.mp4`](recording/ziva-star-catcher-run-raw.mp4) is the same take without captions.
+[`recording/ziva-star-catcher-run.mp4`](recording/ziva-star-catcher-run.mp4) (85 s, silent) is one unedited, real-time screen recording of the Godot editor with the Ziva panel on the left. Captions under the frame say what is happening; [`recording/captions.srt`](recording/captions.srt) has the same text. [`recording/ziva-star-catcher-run-raw.mp4`](recording/ziva-star-catcher-run-raw.mp4) is the same take without captions. It is also on YouTube as a square Short with the same captions: https://www.youtube.com/shorts/l7fjl7f2sEg
 
 What you see, in order:
 
