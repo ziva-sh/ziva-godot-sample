@@ -73,4 +73,6 @@ To check the bug without Ziva, press Play (F5) and walk right into the first sta
 - The first four Debugger lines (`_create_xic`, `set_use_vsync`, `init_output_device`, `All audio drivers failed`) come from the virtual display having no input method, vsync or audio device. They are not from this project.
 - Four takes were run on 4 November. In the three that used this exact bug, Ziva found it by running the game and reading the error. An earlier version of the sample used `$HUD/Score` on a label inside `main.tscn`; Ziva noticed that one while reading the script and fixed it before running, so the sample moved the label into its own scene. The published take is the last of the three; the other two are not published because the editor's Debugger panel was hidden or too small to read during the run.
 
-The game itself (code, scenes and shapes) is original and contains no third-party assets.
+## License
+
+MIT, see [LICENSE](LICENSE). The game itself (code, scenes and shapes) is original and contains no third-party assets.
