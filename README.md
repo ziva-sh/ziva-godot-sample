@@ -55,6 +55,10 @@ Branch [`ziva-run-2026-11-04`](../../tree/ziva-run-2026-11-04) has Ziva's change
 
 Ziva's tool calls, in order: `get_scene_tree`, `glob` (twice), `read` (six files), `edit_file` on `star.gd` and `main.tscn`, `get_scene_tree`, `run_scene` holding `ui_right` from 300 ms to 1500 ms, `edit_file` on `main.gd`, `clear_output_logs`, `run_scene` holding `ui_right` from 300 ms to 900 ms. Each `run_scene` returns a screenshot of the running game plus the console output and runtime errors from that run. The panel's +/- line counts include the replaced lines of each search-and-replace edit, so they differ from this diff.
 
+## Play the fixed version in your browser
+
+The fixed version from branch `ziva-run-2026-11-04` is playable at https://play.ziva.sh/timely-hallway/. It was published on 5 November 2026 with Ziva's **Share Web build** (chat header **⋮** menu), which ran Godot 4.7.2's single-threaded web export, uploaded the 9 compressed files (13.5 MB) and returned that link. Use the arrow keys. How it works, and other ways to host a Godot web build: [How to export a Godot game to the web and share a playable link](https://ziva.sh/blogs/godot-web-export).
+
 ## Reproduce it
 
 1. Install Godot 4.7 and the Ziva plugin ([installation guide](https://ziva.sh/docs/installation)), and sign in.
